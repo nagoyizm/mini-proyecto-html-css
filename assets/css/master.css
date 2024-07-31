@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+img{width: 100%;}
+
+ul{list-style-type: none;
+    list-style: none;
+font-size: x-large;}
+
+a{text-decoration: none;
+}
+
+body{display: flex;
+    justify-content: center;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+}
+
+.container { display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    background-color: rgba(208,142,75,0.5);
+    margin:auto;}
+
+.logo{display:flex;
+    justify-content: center;
+align-items: center;
+margin:10px;
+}
+
+#logo{max-width: 100px;}
+
+.menu{display: flex;
+    padding: 15px;
+    height: 60px ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #C4A174;
+    text-decoration: none;
+
+}
+.menuIzquierda{ margin-left:30px;
+    width: 300px;
+
+}
+
+.menuDerecha{ margin-right:30px;
+    width: 200px;
+    
+}
+
+
+
+.izquierda{display: flex;
+                flex-direction: row;
+                justify-content: space-between; 
+                
+}
+
+
+ul.izquierda li a{color: rgb(107,50,31);}
+
+ul.derecha li a{color:rgb(107,50,31);}
+
+
+.derecha{display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-right: 10px;
+}
+
+.banner{max-width: 1000%;
+        height: 200px;
+        margin-bottom: 220px;
+}
+
+h1.titulo{ font-size:50px;}
+
+.titulo{text-align: center;
+        color:rgb(107,50,31);
+        text-shadow: 3px 3px 5px gray;
+        margin-top: 20px;
+        margin-bottom:20px;}
+
+.subtitulo{text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color:rgb(107,50,31);
+        margin-top:20px;
+        margin-bottom:40px;}
+
+
+.portafolio{display: flex;
+            flex-wrap: wrap;
+        margin:20px;}
+
+.burguer{display:flex;
+    padding:20px;
+    width: 33.3%;
+    wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+
+h2.nombre {
+    text-shadow: 2px 2px 8px grey;
+    size: 50px;
+    color:rgb(107,50,31);}
+
+.boton{ border-radius: 10px;
+        margin: auto; 
+        margin-top:10px;
+        width:200px;
+        padding:10px;
+        background-color: 	rgb(232, 195, 158, 0.7);
+        border: none;
+        color: brown;
+        }
+
+
+h4.contenido {display:flex;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+.pie{display: flex;
+    color:white;
+    justify-content: center;
+    height:50px ;
+    align-items: center;
+    width: 100%;
+    background-color:rgb(107,50,31);
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px;}
+
+div.pie h5{ font-family: Arial, Helvetica, sans-serif;
+            color:lightsalmon;}
